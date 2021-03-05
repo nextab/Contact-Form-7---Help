@@ -1,0 +1,7 @@
+<label> Name
+    [text* vollername placeholder "Max Mustermann"] </label><label> Ihre E-Mail
+    [email* your-email placeholder "max@mustermann.de"] </label><label> Ihre Telefon-Nummer
+[tel* your-fon] </label><label> Was dürfen wir für Sie tun?
+     [select* was "Bitte auswählen" "Ich wünsche eine persönliche Beratung" "Ich bitte um einen Rückruf" "Sonstiges Anliegen"] </label><label> Ihre Nachricht an uns (optional)
+    [textarea your-message placeholder "Ich interessiere mich für ..."] </label><label>
+[checkbox* dsgvo use_label_element ""] Mit dem Absenden dieses Formulars erklären Sie sich mit der Speicherung Ihrer Daten gemäß unserer <a href="/datenschutz-firma-jaist-bad-aibling-parkett-handwerk/" target="_blank">Datenschutzerklärung</a> einverstanden.</label>[recaptcha][submit "Absenden"]
